@@ -14,9 +14,9 @@ export class AppComponent {
    showResults = false;
 
   constructor(private questionsService: QuestionsService ) {
-    this.questionsService.getJSON('maths').subscribe(data => {
+    this.questionsService.getJSON('serialkiller').subscribe(data => {
 
-      this.quiz = new Quiz('maths', data);
+      this.quiz = new Quiz('serialkiller', data);
       this.answers = new Answers();
       this.currentQuestionIndex = 0;
     });
