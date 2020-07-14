@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Maths",
+    "name": "maths",
+    "description": "Questions about maths",
+    "fileName": "maths.json"
+  },
+  {
+    "label": "French",
+    "name": "french",
+    "description": "Questions about french",
+    "fileName": "french.json"
+  },
+  {
+    "label": "Serial Killer",
+    "name": "serial killer",
+    "description": "Questions about serial killers",
+    "fileName": "serialkiller.json"
+  }
+]
