@@ -18,6 +18,6 @@
     "name": "serialkiller",
     "description": "Questions about serial killers",
     "fileName": "serialkiller.json",
-    "imgUrl": "https://cf-quizapp.s3.us-east-2.amazonaws.com/Serial+killers+collage.jpg"
+    "imgUrl": ""
   }
 ]

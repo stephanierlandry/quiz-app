@@ -1,21 +1,21 @@
 <div class="units-row">
-  <div class="unit-33"></div>
-  <div class="unit-33 welcome-container">
+  <div class="unit-20"></div>
+  <div class="unit-60 welcome-container">
     <div>
-      <h1>Quizzes</h1>
+      <img src="https://cf-quizapp.s3.us-east-2.amazonaws.com/killerquizheadline.jpg" alt="" class="welcome-headline">
     </div>
     <div *ngFor="let q of quiz" class="quiz-container">
       <div>
-        <h2>{{q.label}}</h2>
+        <h2 class="quiz-label">{{q.label}}</h2>
         <p>{{q.description}}</p>
         <div>
           <button class="btn">
             <a routerLink="/{{q.name}}" class="btn-text">Select a Quiz</a>
           </button>
-          <img src={{q.imgUrl}} alt="">
+          <img src={{q.imgUrl}} alt="" class="quiz-image">
         </div>
       </div>
     </div>
   </div>
-  <div class="unit-33"></div>
+  <div class="unit-20"></div>
 </div>
