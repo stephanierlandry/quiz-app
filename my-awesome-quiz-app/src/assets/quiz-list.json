@@ -3,18 +3,21 @@
     "label": "Maths",
     "name": "maths",
     "description": "Questions about maths",
-    "fileName": "maths.json"
+    "fileName": "maths.json",
+    "imgUrl": ""
   },
   {
     "label": "French",
     "name": "french",
     "description": "Questions about french",
-    "fileName": "french.json"
+    "fileName": "french.json",
+    "imgUrl" : ""
   },
   {
     "label": "Serial Killer",
     "name": "serialkiller",
     "description": "Questions about serial killers",
-    "fileName": "serialkiller.json"
+    "fileName": "serialkiller.json",
+    "imgUrl": "https://cf-quizapp.s3.us-east-2.amazonaws.com/Serial+killers+collage.jpg"
   }
 ]

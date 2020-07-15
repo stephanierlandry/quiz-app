@@ -1,0 +1,30 @@
+
+.welcome-container{
+  text-align: center;
+}
+
+.quiz-container{
+  background-color: white;
+  border: 2px solid #EDECEC;
+  border-radius: 5px;
+  margin: 2em;
+  padding: .5em 2em 2em 2em;
+}
+
+h1{
+  font-size: 4em;
+}
+
+.btn{
+  background-color: #AE0924;
+  transition: ease-in 0.25s;
+}
+
+.btn:hover{
+  background-color: #5F0514;
+}
+
+.btn-text{
+  color:white;
+  text-decoration: none;
+}
