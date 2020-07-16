@@ -1,0 +1,29 @@
+.quiz-container{
+  background-color: white;
+  border: 2px solid #EDECEC;
+  border-radius: 5px;
+  margin-top: 6em;
+  padding: .5em 2em 2em 2em;
+  text-align: center;
+}
+
+.form-group{
+  display: grid;
+}
+
+.btn{
+  background-color: #AE0924;
+  color:white;
+  transition: ease-in 0.25s;
+  border-radius: 5px;
+  margin-top: 2em;
+}
+
+.btn:disabled{
+  background-color: gray;
+}
+
+.btn:hover:enabled{
+  background-color: #5F0514;
+  color:white;
+}

@@ -7,3 +7,11 @@ body{
   font-family: Helvetica;
   font-weight: lighter;
 }
+
+.form-group{
+  display: grid;
+}
+
+label{
+  padding: .5em;
+}
