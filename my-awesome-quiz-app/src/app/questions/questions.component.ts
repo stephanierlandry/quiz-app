@@ -13,12 +13,12 @@ import { Quiz, Answers, Choice, Question } from '../quiz.model';
 })
 export class QuestionsComponent implements OnInit {
 
-  private quiz: Quiz;
-  private answers: Answers;
-  private questions: Question[];
-  private currentQuestionIndex: number;
-
-  private showResults = false;
+ quiz: Quiz;
+ answers: Answers;
+ questions: Question[];
+ currentQuestionIndex: number;
+ currentIncorrect: number;
+ showResults = false;
 
   // inject both the active route and the questions service
   constructor(private route: ActivatedRoute, private questionsService: QuestionsService) {}
@@ -30,7 +30,8 @@ export class QuestionsComponent implements OnInit {
       .subscribe(questions => {
         // initialize everything
         this.questions = questions;
-        this.answers = new Answers();
+        this.answers = new Answers([],[]);
+        this.currentIncorrect = 0;
         this.currentQuestionIndex = 0;
       });
   }
@@ -40,13 +41,34 @@ export class QuestionsComponent implements OnInit {
   }
 
   nextOrViewResults() {
-    if (this.currentQuestionIndex === this.questions.length - 1) {
-      this.showResults = true;
-      return;
-    }
+    const q = this.questions[this.currentQuestionIndex].choices
+    const correctA = q.find((answer) => answer.correct === true)
 
-    this.currentQuestionIndex++;
-  }
+    const a = this.answers.values[this.currentQuestionIndex]
+    const check = a.correct
+
+    console.log(correctA)
+
+
+   if (check === false) {
+     const tempArr: any = {
+       questionName: this.questions[this.currentQuestionIndex].label,
+       choices: this.questions[this.currentQuestionIndex].choices,
+       picked: a.value,
+       correctAnswer: correctA.value
+     };
+     this.answers.incorrect[this.currentIncorrect] = tempArr;
+     this.currentIncorrect++;
+   }
+
+   if (this.currentQuestionIndex === this.questions.length - 1) {
+
+     this.showResults = true;
+     return;
+   }
+
+   this.currentQuestionIndex++;
+ }
 
   reset() {
     this.quiz = undefined;

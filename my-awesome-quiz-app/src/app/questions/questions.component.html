@@ -18,7 +18,8 @@
         >{{currentQuestionIndex === questions.length - 1 ? 'View results' : 'Next'}}</button>
       </div>
 
-      <app-results *ngIf="showResults" [answers]="answers"></app-results>
+      <app-results *ngIf="showResults" [answers]="answers" ></app-results>
+
     </div>
   </div>
   <div class="unit-20 tablet-unit-20 phone-unit-10"></div>

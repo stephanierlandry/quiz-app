@@ -1,9 +1,13 @@
 export class Choice {
-  constructor(public value: string, public correct?: boolean) {}
+  constructor(public value: string, public correct: any) {}
 }
 
 export class Question {
-  constructor(public label: string, public choices: Choice[]) {}
+  constructor(
+    public label: string,
+    public choices: Choice[],
+    public correct: Choice['correct']
+  ) {}
 }
 
 export class Quiz {
@@ -17,5 +21,8 @@ export class Quiz {
 }
 
 export class Answers {
-  constructor(public values: Choice[] = []) {}
+  constructor(
+    public values: Choice[] = [],
+    public incorrect: Choice['correct']
+  ) {}
 }
