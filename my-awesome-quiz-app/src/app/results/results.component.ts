@@ -14,15 +14,15 @@ export class ResultsComponent {
   answersCheck(incorrectNum: number) {
     console.log(this.answers)
    if (incorrectNum === 0) {
-     return 'Wow WHAT A SUPERSTAR! You are truly a trivia master!';
+     return 'WOW! You really know your killers. Creep.';
    }
    if (incorrectNum <= 1) {
-     return 'Great job! Thats like a B- performance!';
+     return 'You\'re almost a Zodiak level with killer trivia!';
    }
    if (incorrectNum <= 2) {
-     return 'Ehh.. Not too bad but also, Maybe try harder?';
+     return 'I wouldn\'t try to get away with murder anytime soon if I were you.';
    }
    if (incorrectNum >= 4)
-     return 'You should probably stick to your day job!!';
+     return 'Do you even like true crime?';
    }
 }
