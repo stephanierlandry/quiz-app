@@ -1,4 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~plygrid/src/scss/ply-essentials.scss';
+@import '~plygrid/src/scss/components/_buttons.scss';
 
-@import "~plygrid/src/scss/ply-essentials.scss";
-@import "~plygrid/src/scss/components/_buttons.scss"
+body{
+  background-color: #F9F9F9;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+.form-group{
+  display: grid;
+}
+
+label{
+  padding: .5em;
+}
+
+.answer{
+  padding: .5em;
+}

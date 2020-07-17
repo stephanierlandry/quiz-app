@@ -42,7 +42,7 @@
     ]
   },
   {
-    "label": "What name was Joseph James DeAngelo Jr. not known as?",
+    "label": "What name was Joseph James DeAngelo not known as?",
     "choices": [
       {
         "value": "East Area Rapist",
@@ -88,7 +88,7 @@
     "choices": [
       {
         "value": "Family Feud",
-        "correct": true
+        "correct": false
       },
       {
         "value": "The Price is Right",

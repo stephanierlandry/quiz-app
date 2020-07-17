@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What was found in Ed Gein's house?",
+    "choices": [
+      {
+        "value": "A bucket of fingers",
+        "correct": false
+      },
+      {
+        "value": "A head in the freezer",
+        "correct": false
+      },
+      {
+        "value": "An ear necklace",
+        "correct": false
+      },
+      {
+        "value": "A nipple belt",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Who was Paul Bernardo and Karla Homolka's first victim?",
+    "choices": [
+      {
+        "value": "His mother",
+        "correct": false
+      },
+      {
+        "value": "Her mother",
+        "correct": false
+      },
+      {
+        "value": "Her sister",
+        "correct": true
+      },
+      {
+        "value": "A hitchhiker",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Where was H.H. Holmes' murder castle?",
+    "choices": [
+      {
+        "value": "Los Angeles",
+        "correct": false
+      },
+      {
+        "value": "New York City",
+        "correct": false
+      },
+      {
+        "value": "Seattle",
+        "correct": false
+      },
+      {
+        "value": "Chicago",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "How was Edmund Kemper able to get away with murders amongst heightened security around the Santa Cruz area?",
+    "choices": [
+      {
+        "value": "He was handsome.",
+        "correct": false
+      },
+      {
+        "value": "He was a police officer.",
+        "correct": false
+      },
+      {
+        "value": "There was a university sticker on the car he used.",
+        "correct": true
+      },
+      {
+        "value": "He had his son in the car with him.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What did Richard Ramirez witness as a child?",
+    "choices": [
+      {
+        "value": "Nothing. He had an ideal childhood",
+        "correct": false
+      },
+      {
+        "value": "His dog get runover",
+        "correct": false
+      },
+      {
+        "value": "The father dying",
+        "correct": false
+      },
+      {
+        "value": "His cousin murder his wife",
+        "correct": true
+      }
+    ]
+  }
+]
