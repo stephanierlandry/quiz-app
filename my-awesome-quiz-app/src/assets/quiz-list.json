@@ -2,22 +2,22 @@
   {
     "label": "Serial Killers",
     "name": "serialkiller",
-    "description": "Test your serial killer knowledge",
+    "description": "Slay this killer trivia!",
     "fileName": "serialkiller1.json",
     "imgUrl": ""
   },
   {
     "label": "Serial Killers #2",
     "name": "serialkiller2",
-    "description": "Test your serial killer knowledge",
+    "description": "Slay this killer trivia!",
     "fileName": "serialkiller2.json",
     "imgUrl": ""
   },
   {
     "label": "Serial Killers #3",
     "name": "serialkiller3",
-    "description": "Test your serial killer knowledge",
+    "description": "Slay this killer trivia!",
     "fileName": "serialkiller3.json",
     "imgUrl": ""
-  }  
+  }
 ]
