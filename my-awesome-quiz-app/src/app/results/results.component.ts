@@ -17,9 +17,9 @@ export class ResultsComponent {
      return 'WOW! You really know your killers. Creep.';
    }
    if (incorrectNum <= 1) {
-     return 'You\'re almost a Zodiak level with killer trivia!';
+     return 'You\'re almost a Zodiac level with killer trivia!';
    }
-   if (incorrectNum <= 2) {
+   if (incorrectNum <= 3) {
      return 'I wouldn\'t try to get away with murder anytime soon if I were you.';
    }
    if (incorrectNum >= 4)

@@ -1,23 +1,23 @@
 [
   {
-    "label": "Maths",
-    "name": "maths",
-    "description": "Questions about maths",
-    "fileName": "maths.json",
-    "imgUrl": ""
-  },
-  {
-    "label": "French",
-    "name": "french",
-    "description": "Questions about french",
-    "fileName": "french.json",
-    "imgUrl" : ""
-  },
-  {
-    "label": "Serial Killer",
+    "label": "Serial Killers",
     "name": "serialkiller",
-    "description": "Questions about serial killers",
-    "fileName": "serialkiller.json",
+    "description": "Test your serial killer knowledge",
+    "fileName": "serialkiller1.json",
     "imgUrl": ""
-  }
+  },
+  {
+    "label": "Serial Killers #2",
+    "name": "serialkiller2",
+    "description": "Test your serial killer knowledge",
+    "fileName": "serialkiller2.json",
+    "imgUrl": ""
+  },
+  {
+    "label": "Serial Killers #3",
+    "name": "serialkiller3",
+    "description": "Test your serial killer knowledge",
+    "fileName": "serialkiller3.json",
+    "imgUrl": ""
+  }  
 ]
