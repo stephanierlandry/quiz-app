@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Serial Killers",
+    "name": "serialkiller",
+    "description": "Slay this killer trivia!",
+    "fileName": "serialkiller1.json",
+    "imgUrl": ""
+  },
+  {
+    "label": "Serial Killers #2",
+    "name": "serialkiller2",
+    "description": "Slay this killer trivia!",
+    "fileName": "serialkiller2.json",
+    "imgUrl": ""
+  },
+  {
+    "label": "Serial Killers #3",
+    "name": "serialkiller3",
+    "description": "Slay this killer trivia!",
+    "fileName": "serialkiller3.json",
+    "imgUrl": ""
+  }
+]

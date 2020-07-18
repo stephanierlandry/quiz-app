@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Who is not technically a serial killer?",
+    "choices": [
+      {
+        "value": "John Wayne Gacy",
+        "correct": false
+      },
+      {
+        "value": "Ted Bundy",
+        "correct": false
+      },
+      {
+        "value": "Charles Manson",
+        "correct": true
+      },
+      {
+        "value": "Aileen Wuornos",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Who is thought to be the most prolific serial killer in America?",
+    "choices": [
+      {
+        "value": "Samuel Little",
+        "correct": true
+      },
+      {
+        "value": "Richard Ramirez",
+        "correct": false
+      },
+      {
+        "value": "Israel Keyes",
+        "correct": false
+      },
+      {
+        "value": "David Berkowitz",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What name was Joseph James DeAngelo not known as?",
+    "choices": [
+      {
+        "value": "East Area Rapist",
+        "correct": false
+      },
+      {
+        "value": "Diamond Killer",
+        "correct": true
+      },
+      {
+        "value": "Visalia Ransacker",
+        "correct": false
+      },
+      {
+        "value": "Original Night Stalker",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What franchaise did John Wayne Gacy manage?",
+    "choices": [
+      {
+        "value": "Papa Johns",
+        "correct": false
+      },
+      {
+        "value": "McDonalds",
+        "correct": false
+      },
+      {
+        "value": "Kentucky Fried Chicken",
+        "correct": true
+      },
+      {
+        "value": "Burger King",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What tv show did Rodney Alcala appear on?",
+    "choices": [
+      {
+        "value": "Family Feud",
+        "correct": false
+      },
+      {
+        "value": "The Price is Right",
+        "correct": false
+      },
+      {
+        "value": "The Newlywed Game",
+        "correct": false
+      },
+      {
+        "value": "The Dating Show",
+        "correct": true
+      }
+    ]
+  }
+]

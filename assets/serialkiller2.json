@@ -1,0 +1,107 @@
+[
+  {
+    "label": "When was the term serial killer coined?",
+    "choices": [
+      {
+        "value": "1970s",
+        "correct": true
+      },
+      {
+        "value": "1960s",
+        "correct": false
+      },
+      {
+        "value": "1950s",
+        "correct": false
+      },
+      {
+        "value": "1980s",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Where did Ted Bundy not commit a murder in?",
+    "choices": [
+      {
+        "value": "Florida",
+        "correct": false
+      },
+      {
+        "value": "Utah",
+        "correct": false
+      },
+      {
+        "value": "Illinois",
+        "correct": true
+      },
+      {
+        "value": "Washington",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which serial killer taunted the police with a cearel box and floppy disc?",
+    "choices": [
+      {
+        "value": "Hillside Strangler",
+        "correct": false
+      },
+      {
+        "value": "BTK",
+        "correct": true
+      },
+      {
+        "value": "Jack the Ripper",
+        "correct": false
+      },
+      {
+        "value": "The Nightstalker",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which is not one of the early warning signs of a serial killer?",
+    "choices": [
+      {
+        "value": "Removing dolls heads",
+        "correct": true
+      },
+      {
+        "value": "Cruelty to small animals",
+        "correct": false
+      },
+      {
+        "value": "Arson",
+        "correct": false
+      },
+      {
+        "value": "Wetting the bed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Who did David Berkowitz say commanded him to kill?",
+    "choices": [
+      {
+        "value": "God",
+        "correct": false
+      },
+      {
+        "value": "His neighbor's dog",
+        "correct": true
+      },
+      {
+        "value": "The Beatles",
+        "correct": false
+      },
+      {
+        "value": "A puppet",
+        "correct": false
+      }
+    ]
+  }
+]
